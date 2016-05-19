@@ -1,6 +1,10 @@
 package net.warmcolor.blog.model;
 
-public class Mp3Info {
+import java.io.Serializable;
+
+public class Mp3Info implements Serializable{
+
+    private  static final long serialVersionUID = 1L;
     private String id;
     private String mp3Name;
     private String mp3Size;

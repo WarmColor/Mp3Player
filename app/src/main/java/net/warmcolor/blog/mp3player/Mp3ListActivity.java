@@ -65,7 +65,7 @@ public class Mp3ListActivity extends ListActivity {
     }
 
     private SimpleAdapter buildSimpleAdapter(List<Mp3Info> mp3Infos) {
-
+        return null;
     }
 
     private void updateListView() {
